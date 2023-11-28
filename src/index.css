@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark-mode {
+  @apply bg-black text-white;
+}
+
+.sans-serif {
+  font-family: "Inter";
+}
+
+.mono {
+  font-family: "Inconsolata";
+}
+
+.serif {
+  font-family: "Lora";
+}
